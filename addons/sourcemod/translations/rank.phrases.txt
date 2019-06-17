@@ -1,0 +1,63 @@
+"Phrases"
+{
+	"kill"
+	{
+		"#format" "{1:d},{2:N}"
+		"ru" "{LIGHTBLUE}Вы получили {RED}{1} {LIGHTBLUE}xp за убийство {GREEN}{2}"
+	}
+	"assister"
+	{
+		"#format" "{1:d},{2:N}"
+		"ru" "{LIGHTBLUE}Вы получили {RED}{1} {LIGHTBLUE}xp за помощ в убийстве {GREEN}{2}"
+	}
+	"death"
+	{
+		"#format" "{1:d}"
+		"ru" "{LIGHTBLUE}У вас забрали {RED}{1} {LIGHTBLUE}xp за смерть"
+	}
+	"up"
+	{
+		"#format" "{1:s}"
+		"ru" "{LIGHTBLUE}Вас повысили в звании до {GREEN}{1}"
+	}
+	"down"
+	{
+		"#format" "{1:s}"
+		"ru" "{LIGHTBLUE}Вас понизили в звании до {RED}{1}"
+	}
+	"xp"
+	{
+		"#format" "{1:d},{2:d}"
+		"ru" "{LIGHTBLUE}У вас {RED}{1} {LIGHTBLUE}xp, следущий уровень {RED}{2} {LIGHTBLUE}xp"
+	}
+	"xp_max"
+	{
+		"#format" "{1:d}"
+		"ru" "{LIGHTBLUE}У вас {RED}{1} {LIGHTBLUE}xp, MAX LEVEL"
+	}
+	"bomb_planted"
+	{
+		"#format" "{1:d}"
+		"ru" "{LIGHTBLUE}Вы получили {RED}{1} {LIGHTBLUE}xp установку бомбы"
+	}
+	"bomb_defused"
+	{
+		"#format" "{1:d}"
+		"ru" "{LIGHTBLUE}Вы получили {RED}{1} {LIGHTBLUE}xp обезвреживание бомбы"
+	}
+	"hostage_rescued"
+	{
+		"#format" "{1:d}"
+		"ru" "{LIGHTBLUE}Вы получили {RED}{1} {LIGHTBLUE}xp спасение заложника"
+	}
+	"rank"
+	{
+		"#format" "{1:s},{2:d},{3:d},{4:d}"
+		"ru" "Rank\n \nВаше звание: {1}\nXp: {2}\nМесто {3} из {4}\n "
+	}
+	"rank_nocore"
+	{
+		"#format" "{1:s},{2:d}"
+		"ru" "Rank\n \nВаше звание: {1}\nXp: {2}\n "
+	}
+}
