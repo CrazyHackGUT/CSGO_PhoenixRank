@@ -74,12 +74,12 @@ new bool:resetu,
 
 new fg;
 
-#define vers "1.9 PRIVATE"
+#define vers "1.9.1"
 
 public Plugin:myinfo =
 {
 	name = "Rank",
-	author = "Pheonix (˙·٠●Феникс●٠·˙)",
+	author = "Pheonix (˙·٠●Феникс●٠·˙), CrazyHackGUT aka Kruzya",
 	version = vers,
 	url = "http://zizt.ru/"
 };
@@ -502,7 +502,7 @@ public QuerygameMEStatsCallback(command, payload, iClient, &Handle: datapack)
 		new Handle: data = CloneHandle(datapack);
 		SetPackPosition(data, 18);
 		give_xp(iClient, ReadPackCell(data)-xp[iClient]);
-		CloseHandle(datapack);
+		CloseHandle(data);
 	}
 }
 
